@@ -3807,7 +3807,7 @@
         labelThousandsSeparator: [getThousandsSeparator(), Type.STRING], // Default is locale separator
 
         labelIdle: [
-            'Sube aquí el pdf, jpg',
+            'PENJA AQUÍ EL JPG/PDF',
             Type.STRING,
         ],
 
