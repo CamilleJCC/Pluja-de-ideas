@@ -1,0 +1,224 @@
+@font-face {
+    font-family: SM Primaria;
+    src: url(./SMPrimaria-Regular.otf);
+}
+* {
+    font-family: SM Primaria, Arial, sans-serif;
+    margin:0;
+    line-height: 1.1em;
+  }
+
+  body{
+    background: #00B0A9;
+  }
+   
+  .fixed-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5em;
+    position: sticky;
+}
+
+.nav-col.col-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-col.col-2 button {
+  background-color: white;
+  color: #00b0a9;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.nav-col.col-2 button:hover{
+  background-color: #552FEA;
+  color: white;
+}
+
+.nav-col.col-3 button:hover{
+  background-color: #552FEA;
+  color: white;
+}
+
+.nav-col.col-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-col.col-3 button {
+  background-color: white;
+  color: #00b0a9;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+  
+  .logo {
+    width: 700px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+   
+  p, 
+  li {
+    font-size: 18px;
+    line-height: 1.3em;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+h1 {    
+   font-size: 30px;
+   text-align: center;
+   color: white;
+}
+
+h2{
+  font-size:40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3{
+    font-family: Tombstone;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+nav{
+    color: blue;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitem{
+font-size: 40px;
+padding: 10px;
+}
+
+#services {
+  /* styles for the container div */
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+}
+
+.clickable-div {
+  /* styles for the clickable div */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5em;
+  background: #552fea;
+  border-top: white 1px solid;
+  align-items: center;
+}
+
+.content {
+  /* styles for the content div */
+  opacity: 100;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  background: #552fea;
+    color: white;
+}
+
+.show {
+  /* styles to show the content */
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  padding: 20px 5em 20%;
+  transition: transform 0.5s ease, height 0.5s ease, visibility 0.5s ease;
+}
+
+.plus-sign {
+  /* styles for the SVG plus sign */
+  width: 20px;
+  height: 20px;
+  fill: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+.hide {
+  /* styles for the hidden content div */
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+  transition: transform 0.5s ease, height 0.5s ease, visibility 0.5s ease;
+}
+
+button {
+  /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 28px;
+opacity: 1;
+border: none;
+width: 130px;
+height: 40px;
+}
+
+.brand-claim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 20em;
+}
+
+.purple-popup{
+  background: #552FEA;
+  width: 305px;
+  color: white;
+  transform: rotate(-15deg);
+  padding: 40px;
+  text-align: center;
+  position: absolute;
+  top: 685px;
+  z-index: -1;
+  right: 427px;
+}
+
+#instructions{
+  gap: 90px;
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 5em;
+}
+
+.instructions-col {
+width:20%;
+}
+
+footer {
+  background-color: #552FEA;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: white 1px solid;
+  align-items: flex-end;
+  padding: 20px 5em;
+}  
+
+footer img{
+  width: 500px;
+}
+  
